@@ -151,3 +151,59 @@ nav ul li a:active {
   font-size: 27px;
   font-style: italic;
 }
+
+#reviews {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+#reviews_image {
+  width: 48.5vw;
+  height: 45vw;
+  background-image: url("images/image1.png");
+  background-size: cover;
+}
+
+#reviews_text {
+  width: 51.5vw;
+  height: 45vw;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#reviews_text h4 {
+  font-size: 60px;
+  font-weight: 400;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+#reviews_text hr {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3px;
+  background-color: #fff;
+}
+
+#reviews_text h5 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#reviews_text p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+#reviews_text h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
