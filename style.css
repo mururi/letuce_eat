@@ -37,7 +37,7 @@ header {
 
 .logo:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 #logo {
@@ -84,7 +84,7 @@ nav ul li a:active {
 
 #cta_1:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .hero {
@@ -112,7 +112,7 @@ nav ul li a:active {
 
 #cta_2:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /*Services section styling*/
