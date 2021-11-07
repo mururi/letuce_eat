@@ -30,15 +30,17 @@ header {
   justify-content:space-between;
   cursor: pointer;
 }
+
+#logo {
+  width: 40px;
+  height: 40px;
+  background-image: url("images/image3.png");
+  background-size: cover;
+}
+
 .logo h3 {
   color: #F19201;
   padding-left: 10px;
-}
-
-.logo img {
-  /* padding: 10px; */
-  border: 2px solid white;
-  
 }
 
 nav ul li {
