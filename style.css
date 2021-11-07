@@ -326,7 +326,7 @@ nav ul li a:active {
 .menu_text button {
   height: 40px;
   width: 133px;
-  background-color: #f19201;
+  background-color: rgb(220, 220, 220);
   border: none;
   transition: all ease-in-out 250ms;
 }
@@ -368,10 +368,13 @@ nav ul li a:active {
   color: #fff;
   font-size: 18px;
   font-weight: bold;
+  transition: all ease-in-out 250ms;
 }
 
 #cta button:hover {
   cursor: pointer;
+  color: black;
+  background-color: #fff;
 }
 
 /*Footer styling*/
