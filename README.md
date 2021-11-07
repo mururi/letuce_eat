@@ -12,6 +12,8 @@ This is a restaurant website with a complete menu and services list. The website
 Ensure that your device of choice has a browser installed.
 Click the link provided below to view the site.
 
+https://mururi.github.io/letuce_eat/
+
 ## Technologies Used 
 * HTML - This was used to build the structure of the web pages.
 * CSS - This was used to style the website.
