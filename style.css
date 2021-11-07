@@ -9,7 +9,8 @@
 .container {
   background-image: url(images/image2.png);
   background-size: cover;
-  height: 85vh;
+  height: 640px;
+  width: 100%;
   position: relative;
 }
 
@@ -101,11 +102,17 @@ nav ul li a:active {
   color: white;
   font-size: 22px;
   font-weight: 600;
-  padding: 20px 65px 20px 65px;
+  height: 50px;
+  width: 190px;
   background-color: #f19201;
   border: none;
   margin-left: 10px;
+  transition: all ease-in-out 250ms;
+}
+
+#cta_2:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 /*Services section styling*/
