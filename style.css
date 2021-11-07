@@ -238,28 +238,27 @@ nav ul li a:active {
 /*Menu section styling*/
 #menu {
   background-color: rgb(220, 220, 220);
-  padding: 80px;
+  padding: 50px;
   text-align: center;
 }
 
 #menu h4 {
   color: #F19201;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 500;
 }
 
 #menu > p {
   font-style: italic;
-  font-size: 24px;
-  padding: 40px 0;
+  font-size: 17px;
+  padding: 40px 0 60px 0;
 }
 
 #menu_container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 100px 0 100px;
 }
 
 .menu_item {
@@ -268,7 +267,7 @@ nav ul li a:active {
   background-color: #fff;
   height: 310px;
   width: 590px;
-  margin-bottom: 50px;
+  margin: 0px 35px 30px 35px;
   padding: 20px;
 }
 
@@ -306,6 +305,7 @@ nav ul li a:active {
 .menu_text h5 {
   font-size: 30px;
   font-weight: 500;
+  padding-bottom: 25px;
 }
 
 .menu_text p {
@@ -313,12 +313,14 @@ nav ul li a:active {
   font-weight: 300;
   line-height: 25px;
   font-style: italic;
+  padding-bottom: 25px;
 }
 
 .menu_text h6 {
   font-size: 22px;
   font-weight: 500;
   color: #F19201;
+  padding-bottom: 25px;
 }
 
 .menu_text button {
@@ -326,6 +328,12 @@ nav ul li a:active {
   width: 133px;
   background-color: #f19201;
   border: none;
+  transition: all ease-in-out 250ms;
+}
+
+.menu_text button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 /*Call to action section styling*/
