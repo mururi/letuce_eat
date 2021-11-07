@@ -20,7 +20,7 @@ header {
   padding: 5px 4%;
   background-color:rgba(0, 0, 0, 0.5);
   height: 75px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -41,6 +41,7 @@ header {
 .logo h3 {
   color: #F19201;
   padding-left: 10px;
+  font-size: 20px;
 }
 
 nav ul li {
@@ -63,12 +64,19 @@ nav ul li a:active {
 
 #cta_1 {
   color: white;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
-  padding: 10px 30px 10px 30px;
+  width: 130px;
+  height: 40px;
   background-color: #f19201;
   border: none;
   cursor: pointer;
+  transition: all ease-in-out 250ms;
+}
+
+#cta_1:hover {
+  transform: scale(1.1);
+  
 }
 
 .hero {
